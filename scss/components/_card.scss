@@ -1,0 +1,20 @@
+.contenedor-servicios {
+    .contenedor-cards{   
+        @include flex(row,space-evenly,none, none); 
+        .card{
+            width: 350px;
+            height: 425px;
+            background-color: map-get($colors, fondoCrema);
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.278);
+            border-radius: 1.25rem;
+            overflow: hidden; 
+            @include flex(column,none,center, none); 
+            .img-card {
+                width: 300px;
+                padding: 5px 0px 35px 0px;                  
+            }          
+        }
+    }  
+
+}

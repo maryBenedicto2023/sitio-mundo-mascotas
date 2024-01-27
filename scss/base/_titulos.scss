@@ -1,0 +1,28 @@
+h1 {
+    font-size: map-get($font-size, h1);
+    color: $blackColor;
+    font-weight: bold;   
+}
+
+h2{
+    @extend h1;
+    font-size: map-get($font-size, h2);
+    text-align: center; 
+    padding: 30px
+}
+
+h3{
+    @extend h1;
+    font-size: map-get($font-size, h3);
+    text-align: center; 
+    padding: 15px;    
+}
+.card-text {
+    font-weight: bold;
+}
+.parrafo-nosotros {
+    font-size: 25px;
+    text-align: left;
+    padding: 40px;
+    line-height: 40px;        
+}
